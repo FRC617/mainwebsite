@@ -28,10 +28,12 @@ html,
 body {
   width: 100%;
   height: 100%;
+  background: #000;
 }
 
+
 body {
-  color: #333;
+  color: #d1a700;
 }
 
 *,
@@ -43,7 +45,7 @@ body {
 .line {
   float: left;
   width: 100%;
-  border-top: 0.25em solid #333;
+  border-top: 0.25em solid #d1a701;
 }
 
 .wrapper {
@@ -71,16 +73,16 @@ a {
   font-size: 1em;
   font-weight: bold;
   text-transform: uppercase;
-  background: #ad0000;
+  background: #A5CA18;
   color: #fff;
   border: 0;
   cursor: pointer;
 }
 .button:focus, .button:hover {
-  background: #890000;
+  background: #bde90d ;
 }
 .button:active {
-  background: #c10000;
+  background: #586e00;
 }
 
 .link {
@@ -103,7 +105,7 @@ nav h1 {
 }
 
 nav h1 a {
-  color: #ad0000;
+  color: #d1a701 ;
 }
 
 .nav-ul {
@@ -124,17 +126,17 @@ header .nav-ul a {
   font-size: 1.5em;
   text-align: center;
   text-transform: uppercase;
-  color: #333;
+  color: #d1a701;
 }
 header .nav-ul a:focus, header .nav-ul a:hover {
-  color: #ad0000;
+  color: #fdeb37;
 }
 header .nav-ul a:active {
-  color: #c70000;
+  color: #7e6500;
 }
 
 header li:first-child a {
-  background: #ad0000;
+  background: #d1a701;
   color: #fff;
 }
 header li:first-child a:hover {
@@ -171,10 +173,10 @@ hr {
 
 .sec-intro h1 {
   position: absolute;
-  bottom: 0.5em;
+  bottom: 1em;
   left: 0.5em;
   padding: 0.5em;
-  background: rgba(0, 0, 0, 0.5);
+  background-color: rgb(209, 167, 1, .7);
   color: #fff;
 }
 
@@ -184,17 +186,18 @@ hr {
   padding: 1.5em 1em;
   width: 25%;
   height: 400px;
-  border-top: 0.1em solid #d3d3d3;
-  border-bottom: 0.1em solid #d3d3d3;
-  border-left: 0.1em solid #d3d3d3;
+  background: #000;
+  border-top: 0.1em solid #4b3c00;
+  border-bottom: 0.1em solid #4b3c00;
+  border-left: 0.1em solid #4b3c00;
   transition: background 0.25s;
 }
 .box:focus, .box:hover {
-  background: #f5f5f5;
+  background: #4B3C00;
 }
 
 .box:last-child {
-  border-right: 0.1em solid #d3d3d3;
+  border-right: 0.1em solid #4b3c00;
 }
 
 .box h1 {
@@ -219,7 +222,7 @@ hr {
 .sec-events article {
   float: left;
   padding: 0 0.25em;
-  width: 25%;
+  width: 50%;
   text-align: justify;
 }
 
@@ -240,7 +243,12 @@ hr {
   font-weight: bold;
   text-align: center;
 }
-
+.marginauto {
+  margin: 10px auto 20px;
+  display: block;
+  width: 50%;
+  height: auto;
+}
 /*Projects*/
 .sec-projects {
   width: 60%;
