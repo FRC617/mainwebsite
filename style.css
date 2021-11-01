@@ -73,27 +73,27 @@ a {
   font-size: 1em;
   font-weight: bold;
   text-transform: uppercase;
-  background: #A5CA18;
+  background: #d1a701;
   color: #fff;
   border: 0;
   cursor: pointer;
 }
 .button:focus, .button:hover {
-  background: #bde90d ;
+  background: #e6d631 ;
 }
 .button:active {
-  background: #586e00;
+  background: #7e6500;
 }
 
 .link {
   font-weight: bold;
-  color: #ad0000;
+  color: #d1a701;
 }
 .link:focus, .link:hover {
-  color: #7a0000;
+  color: #7e6500;
 }
 .link:active {
-  color: #c70000;
+  color: #e6d631;
 }
 
 /*Navigation*/
@@ -367,7 +367,6 @@ footer {
   padding: 2em 0;
   width: 100%;
   text-align: center;
-  background: #d3d3d3;
 }
 
 footer .nav-ul {
@@ -380,16 +379,16 @@ footer li:not(:first-child) {
 }
 
 footer li:first-child a {
-  color: #333;
+  color: #4b3c00;
 }
 
 footer a {
   font-size: 1.25em;
   font-weight: bold;
-  color: #a9a9a9;
+  color: #d1a701;
 }
 footer a:focus, footer a:hover {
-  color: #333;
+  color: #4b3c00;
 }
 
 .copy {
